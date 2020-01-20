@@ -30,7 +30,15 @@ class Review extends Model
     /**
      * @var array
      */
-    protected $fillable = ['product_id', 'user_id', 'review', 'rating', 'created_at', 'updated_at', 'deleted_at'];
+    protected $fillable = [
+        'product_id',
+        'user_id',
+        'review',
+        'rating',
+        'created_at',
+        'updated_at',
+        'deleted_at'
+    ];
 
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo

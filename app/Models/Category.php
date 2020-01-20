@@ -29,7 +29,13 @@ class Category extends Model
     /**
      * @var array
      */
-    protected $fillable = ['name', 'description', 'products_count', 'created_at', 'updated_at', 'deleted_at'];
+    protected $fillable = [
+        'name',
+        'description',
+        'created_at',
+        'updated_at',
+        'deleted_at'
+    ];
 
     /**
      * @return \Illuminate\Database\Eloquent\Relations\HasMany

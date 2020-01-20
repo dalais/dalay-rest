@@ -33,7 +33,17 @@ class Product extends Model
     /**
      * @var array
      */
-    protected $fillable = ['category_id', 'name', 'short_description', 'description', 'price', 'average_rating', 'created_at', 'updated_at', 'deleted_at'];
+    protected $fillable = [
+        'category_id',
+        'name',
+        'short_description',
+        'description',
+        'price',
+        'average_rating',
+        'created_at',
+        'updated_at',
+        'deleted_at'
+    ];
 
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
